@@ -12,8 +12,9 @@ header {
 .abovethefold {
 	text-align: left;
 	background-size: cover;
-	background-image: url(images/jessica-ruscello-120993-unsplash_HOMEPAGE.jpg);
-	background-image: 100%
+	background-image: url(../images/jessica-ruscello-120993-unsplash_HOMEPAGE.jpg);
+	background-image: 100%;
+	padding: 35vh 0;
 }
 
 .abovethefoldimage {

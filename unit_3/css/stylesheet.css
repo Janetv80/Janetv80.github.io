@@ -1,5 +1,10 @@
+@import url('https://fonts.googleapis.com/css?family=Just+Another+Hand');
+@import url('https://fonts.googleapis.com/css?family=Comfortaa|Just+Another+Hand');
+@import url('https://fonts.googleapis.com/css?family=Comfortaa|Just+Another+Hand|Open+Sans');
+
+
 body {
-	color: black;
+	color: #5D5D5D;
 	font-family: "Open Sans", sans-serif;
 	line-height: 1.5;
 }
@@ -12,13 +17,9 @@ header {
 .abovethefold {
 	text-align: left;
 	background-size: cover;
-	background-image: url(../images/jessica-ruscello-120993-unsplash_HOMEPAGE.jpg);
+	background-image: url(../images/jessica-ruscello-120993-unsplash_HOMEPAGE_rev.jpg);
 	background-image: 100%;
-	padding: 35vh 0;
-}
-
-.abovethefoldimage {
-	width: 100%
+	padding: 45vh 0;
 }
 
 .Module1, .Module2, .Module3 {
@@ -52,9 +53,12 @@ nav a {
 }
 
 h1 {
-	font-family: Dosis, sans-serif;
-	font-size: 35px;
+	line-height: .85;
+	color: black;
+	font-family: 'Just Another Hand', cursive;
+	font-size: 75px;
 	font-weight: 400;
+
 }
 
 p {

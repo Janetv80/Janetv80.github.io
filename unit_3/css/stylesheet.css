@@ -1,17 +1,27 @@
 @import url('https://fonts.googleapis.com/css?family=Just+Another+Hand');
 @import url('https://fonts.googleapis.com/css?family=Comfortaa|Just+Another+Hand');
-@import url('https://fonts.googleapis.com/css?family=Comfortaa|Just+Another+Hand|Open+Sans');
+@import url('https://fonts.googleapis.com/css?family=Comfortaa|Just+Another+Hand|Raleway');
 
 
 body {
 	color: #5D5D5D;
-	font-family: "Open Sans", sans-serif;
-	line-height: 1.5;
+	font-family: "Raleway", sans-serif;
+	line-height: 1.75;
+	letter-spacing: .45px;
 }
 
 header {
 	background-color: white;
 	padding: 40px
+}
+
+.navlinks {
+	color: #5D5D5D;
+	font-family: 'Raleway', sans-serif;
+	font-size: 13px;
+	font-weight: 800;
+	text-decoration: none;
+	letter-spacing: 1px;
 }
 
 .abovethefold {
@@ -24,7 +34,8 @@ header {
 
 .Module1, .Module2, .Module3 {
 	text-align: center;
-	margin-bottom: 50px;
+	margin-bottom: 110px;
+	margin-top: 110px;
 }	
 
 .Module2 {
@@ -41,6 +52,7 @@ header {
 .Quotecopy {
 	font-size: 35px;
 	font-weight: 400;
+	margin-bottom: 20px;
 }
 
 .Quoteperson {
@@ -53,11 +65,12 @@ nav a {
 }
 
 h1 {
-	line-height: .85;
+	line-height: 1;
 	color: black;
 	font-family: 'Just Another Hand', cursive;
 	font-size: 75px;
 	font-weight: 400;
+	margin-bottom: 40px;
 
 }
 
@@ -71,12 +84,19 @@ hr {
 	background-color: white;
 	border: none;
 	height: 3px;
+	margin-top: 20px;
+	margin-bottom: 20px;
 }
 
 footer {
-	background-color: #f4f4f4;
+	background-color: black;
 	padding: 50px; 
 	text-align: right;
 }
 
+.footerlinks {
+	font-family: 'Raleway', sans-serif;
+	color: white;
+	text-decoration: none;
+}
 }

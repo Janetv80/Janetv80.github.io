@@ -79,12 +79,15 @@ img {
 	border-radius: 5px;
 }
 
-.abovethefold {
+.sectionleft {
 	text-align: left;
 	padding-top: 100px;
-	margin-right: 50px;
 	padding-bottom: 100px;
 	margin-left: 50px;
+	width: 600px;
+}
+
+.carouselimage {
 	width: 600px;
 }
 
@@ -101,11 +104,6 @@ img {
 	display: inline;
 	border-radius: 5px;
 	margin-right: 5px;
-}
-
-.carouselimage {
-	margin-right: 0;
-	width: 600px;
 }
 
 .yellowbutton {

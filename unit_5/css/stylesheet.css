@@ -11,20 +11,31 @@ body {
 }
 
 header {
-	background-image: url(../images/jessica-ruscello-120993-unsplash_HOMEPAGE_rev.jpg);
+	background-color: #FFED74;
+	border: 1px black solid;
+	padding: 20px;
+	background-image: url(../images/jessica-ruscello-120993-unsplash_HOMEPAGE_rev.jpg)
 	background-size: cover;
 	background-image: 100%;
 }
 
 nav {
-	background-color: white;
+	background-color: #E8C66A;
+	border: 1px black solid;
+	padding: 20px;
+	background-color: white
 	padding: 30px 50px;
 }
 
-nav a {
+nav .navlinksmiddle {
 	margin-right: 30px;
 }
 
+section {
+	background-color: #FFE2B8;
+	border: 1px black solid;
+	padding: 20px;
+}
 
 h1 {
 	line-height: 1;
@@ -46,7 +57,10 @@ hr {
 }
 
 footer {
-	background-color: black;
+	background-color: #FF957E;
+	border: 1px black solid;
+	padding: 20px;
+	background-color: black
 	padding: 50px; 
 }
 
@@ -97,13 +111,18 @@ img {
 	font-family: 'Raleway', sans-serif;
 	font-size: 13px;
 	font-weight: 800;
-	text-decoration: none;
+
 	letter-spacing: 1px;
 	text-align: center;
 	padding: 10px 20px;
 	display: inline;
 	border-radius: 5px;
 	margin-right: 5px;
+}
+
+ a {
+	color:white;
+	text-decoration: none
 }
 
 .yellowbutton {

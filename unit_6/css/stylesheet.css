@@ -13,8 +13,6 @@ body {
 header {
 	background-color: white;
 	padding: 30px 50px;
-	margin-top: auto;
-	margin-bottom: auto;
 }
 
 header img {
@@ -60,6 +58,16 @@ h1 {
 	color: black;
 	font-family: 'Aleo', serif;
 	font-size: 50px;
+	font-style: italic;
+	font-weight: 300;
+	margin-bottom: 40px;
+}
+
+h2 {
+	line-height: 1;
+	color: black;
+	font-family: 'Aleo', serif;
+	font-size: 35px;
 	font-style: italic;
 	font-weight: 300;
 	margin-bottom: 40px;
@@ -146,6 +154,10 @@ footer {
 	text-align: center;
 	padding: 10px 20px;
 	border-radius: 5px;
+}
+
+.greenbuttonfloat {
+	float: left;
 }
 
 .yellowbutton {

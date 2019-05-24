@@ -12,7 +12,7 @@ body {
 
 header {
 	background-color: white;
-	padding: 30px 50px;
+	padding: 20px 50px;
 }
 
 header img {
@@ -30,6 +30,8 @@ nav {
 nav a {
 	float: left;
 	text-align: center;
+	padding-top: 30px;
+	padding-bottom: 30px;
 }
 
 nav a:link {
@@ -103,6 +105,8 @@ footer {
 	padding: 10px 20px;
 	border-radius: 5px;
 	float: left;
+	margin-top: 20px;
+	margin-bottom: 20px;
 	margin-right: 50px;
 }
 
@@ -119,6 +123,7 @@ footer {
 
 #abovethefoldleft {
 	text-align: left;
+	vertical-align: middle;
 	padding-top: 100px;
 	padding-bottom: 100px;
 	margin-left: 50px;

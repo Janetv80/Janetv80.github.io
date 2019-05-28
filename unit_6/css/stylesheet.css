@@ -17,6 +17,9 @@ header {
 
 header img {
 	float: left;
+	height: 60px;
+	margin-right: 50px;
+	padding-top: 10px;
 }
 
 nav {
@@ -32,6 +35,7 @@ nav a {
 	text-align: center;
 	padding-top: 30px;
 	padding-bottom: 30px;
+	display: inline-block;
 }
 
 nav a:link {
@@ -116,7 +120,7 @@ footer {
 	letter-spacing: 1px;
 	text-align: right;
 	padding: 10px 20px;
-	border-radius: 5px;
+	border-radius: 3px;
 	float: left;
 	margin-top: 20px;
 	margin-bottom: 20px;
@@ -176,9 +180,9 @@ footer {
 	letter-spacing: 1px;
 	text-align: center;
 	padding: 10px 20px;
-	margin-top: 10px;
+	margin-top: 8px;
 	margin-bottom: 20px;
-	border-radius: 5px;
+	border-radius: 3px;
 	margin-right: 25px;
 }
 
@@ -196,7 +200,7 @@ footer {
 	letter-spacing: 1px;
 	text-align: center;
 	padding: 10px 20px;
-	border-radius: 5px;
+	border-radius: 3px;
 	margin-right: 5px;
 }
 

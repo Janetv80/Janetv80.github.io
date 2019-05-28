@@ -166,6 +166,7 @@ footer {
 }
 
 .greenbutton {
+	display: inline-block;
 	background-color: #919e95;
 	color: #ffffff;
 	font-family: 'Raleway', sans-serif;
@@ -175,7 +176,7 @@ footer {
 	letter-spacing: 1px;
 	text-align: center;
 	padding: 10px 20px;
-	margin-top: 20px;
+	margin-top: 10px;
 	margin-bottom: 20px;
 	border-radius: 5px;
 	margin-right: 25px;

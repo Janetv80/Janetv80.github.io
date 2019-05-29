@@ -17,7 +17,7 @@ header {
 
 header img {
 	float: left;
-	height: 60px;
+	height: 80px;
 	margin-right: 50px;
 	padding-top: 10px;
 }
@@ -133,28 +133,25 @@ footer {
 }
 
 .abovethefold {
-	background-image: url(../images/jessica-ruscello-120993-unsplash_HOMEPAGE_rev.jpg);
+	background-image: url(../images/jessica-ruscello-120993-unsplash_HOMEPAGE_rev_blue.jpg);
 	background-size: cover;
 	background-image: 100%;
 }
 
 #abovethefoldleft {
 	text-align: left;
-	vertical-align: middle;
 	padding-top: 100px;
 	padding-bottom: 100px;
 	margin-left: 50px;
-	width: 600px;
+	width: 50%;
 	float: left;
 }
 
 #abovethefoldright {
-	text-align: right;
 	padding-top: 100px;
-	padding-bottom: 100px;
-	padding-left: 50px;
+
 	margin-right: 50px;
-	float: right;
+	float: left;
 }
 
 /*.introcopyandlinks {
@@ -169,9 +166,9 @@ footer {
 	width: 600px;
 }
 
-.greenbutton {
+.bluebutton {
 	display: inline-block;
-	background-color: #919e95;
+	background-color: #38525b;
 	color: #ffffff;
 	font-family: 'Raleway', sans-serif;
 	font-size: 13px;
@@ -186,7 +183,7 @@ footer {
 	margin-right: 25px;
 }
 
-.greenbuttonfloat {
+.bluebuttonfloat {
 	float: left;
 }
 
@@ -232,16 +229,14 @@ footer {
 
 #leftaboutme {
     float: left;
-    width: 600px;
+    width: 50%;
     margin-bottom: 100px;
 	margin-top: 100px;
-	width: 600px;
 	margin-left: 50px;
 }
 
 #rightaboutme {
-    float: right;
-    width: 200px;
+    float: left;
 	margin-top: 100px;
 	/*margin-right: 50px;*/
 	margin-bottom: 100px;

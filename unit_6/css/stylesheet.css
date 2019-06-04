@@ -201,7 +201,7 @@ footer {
 	margin-top: 8px;
 	margin-bottom: 20px;
 	border-radius: 2px;
-	margin-right: 25px;
+	margin-right: 15px;
 }
 
 .bluebutton:hover {
@@ -210,6 +210,15 @@ footer {
 
 .bluebuttonfloat {
 	float: left;
+}
+
+.vl {
+  border-left: 2px #5D5D5D;
+  height: 500px;
+  position: absolute;
+  left: 50%;
+  margin-left: -3px;
+  top: 0;
 }
 
 .bluebuttonoutline {
@@ -234,24 +243,6 @@ footer {
 	color: #003f40;
 	border: 2px solid #003f40;
 	background-color: #edf1f2;
-}
-
-.signupbutton {
-	background-color: white;
-	color: black;
-	font-family: 'Raleway', sans-serif;
-	font-size: 13px;
-	font-weight: 800;
-	text-decoration: none;
-	letter-spacing: 1px;
-	text-align: center;
-	padding: 10px 20px;
-	border-radius: 2px;
-	margin-right: 5px;
-}
-
-.signupbutton:hover {
-	background-color: #ccc;
 }
 
 .SectionWhatIsReiki, .SectionWhyReiki {
@@ -289,7 +280,37 @@ footer {
 
 .Module3Question {
 	font-style: italic;
-}	
+}
+
+.emailfield {
+	display: inline-block;
+	background-color: black;
+	color: white;
+	text-align: left;
+	border: 1px solid white;
+	padding: 10px 20px;
+	border-radius: 2px;
+	margin-right: 5px;
+}
+
+.signupbutton {
+	display: inline-block;
+	background-color: white;
+	color: black;
+	font-family: 'Raleway', sans-serif;
+	font-size: 13px;
+	font-weight: 800;
+	text-decoration: none;
+	letter-spacing: 1px;
+	text-align: center;
+	padding: 10px 20px;
+	border-radius: 2px;
+	margin-right: 5px;
+}
+
+.signupbutton:hover {
+	background-color: #ccc;
+}
 
 #leftfooter {
     float: left;

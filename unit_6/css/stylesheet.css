@@ -100,7 +100,7 @@ blockquote {
 	color: black;
 	font-size: 35px;
 	font-weight: 400;
-	width: 100%;
+	max-width: 1200px;
 	margin: auto;
 	padding: 3em 2em;
 }
@@ -233,7 +233,7 @@ footer {
 .vl {
   border: .5px solid black;
   height: 85px;
-  position: absolute;
+  position: absolute; 
   left: 50%;
 }
 

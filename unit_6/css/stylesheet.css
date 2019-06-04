@@ -165,7 +165,25 @@ footer {
 	background-size: cover;
 }
 
-#abovethefoldleft {
+
+.wrapperabovethefold {
+    max-width: 1200px;
+    margin: auto;
+
+}
+
+#abovethefoldcolumnleft {
+    float: left;
+    width: 50%;
+    padding: 8em 4em;
+}
+
+#abovethefoldcolumnright {
+    float: left;
+    width: 50%;
+    padding: 8em 0 0 0;
+}
+/*#abovethefoldleft {
 	text-align: left;
 	padding-top: 100px;
 	padding-bottom: 100px;
@@ -177,11 +195,11 @@ footer {
 #abovethefoldright {
 	padding-top: 100px;
 	/*padding-bottom: 100px;*/
-	padding-left: 25px;
+	/*padding-left: 25px;
 	padding-right: 100px;
 	width: 50%;
 	float: left;
-}
+}*/
 
 .carouselimage {
 	width: 600px;

@@ -404,5 +404,15 @@ footer {
 
 	#toggle:checked + nav {
 		display: block;
+		float: right;
+		text-align: right;
+		padding-top: 2.35em;
+		padding-bottom: .53333em;
+		border-bottom: 2px solid #fff;
+		display: inline-block;
+		color: #5D5D5D;
+		letter-spacing: 1px;
+		margin-right: 2.35em;
+		text-decoration: none;
 	}
 }

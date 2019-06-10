@@ -17,6 +17,10 @@ header {
   	box-shadow: 1px 1px 1px rgba(0, 0, 0, .06);
 }
 
+label {
+	display: none;
+}
+
 header img {
 	float: left;
 	height: .1875em;
@@ -381,5 +385,11 @@ footer {
 }
 
 @media only screen and (max-width: 1049px) {
+	label {
+		display: block;
+	}
 
+	nav {
+		display: none;
+	}
 }

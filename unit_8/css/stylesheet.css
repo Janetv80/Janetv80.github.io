@@ -394,11 +394,14 @@ footer {
 }
 
 @media only screen and (max-width: 1099px) {
+	#abovethefoldcolumnleft {
+	    float: none;
+	    width: 100%;
+	    padding: 8em 12em 8em 3em;
+	}
+
 	#abovethefoldcolumnright {
-	    float: left;
-	    width: 50%;
-	    padding: 8em 0 0 0;
-	    position: absolute;
+		display: none;
 	}
 }
 

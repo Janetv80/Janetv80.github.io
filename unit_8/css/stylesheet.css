@@ -100,7 +100,8 @@ hr {
 
 blockquote {
 	color: black;
-	font-size: 35px;
+	/*font-size: 35px;*/
+	font-size: 2.1875rem;
 	font-weight: 400;
 	max-width: 1200px;
 	margin: auto;
@@ -109,7 +110,8 @@ blockquote {
 
 cite {
 	font-style: normal;
-	font-size: 15px;
+	/*font-size: 15px;*/
+	font-size: .9375rem;
 }
 
 footer {
@@ -154,7 +156,8 @@ footer {
 	background-color: #1c2236;
 	color: #ffffff;
 	font-family: 'Raleway', sans-serif;
-	font-size: 13px;
+	/*font-size: 13px;*/
+	font-size: .8125rem;
 	font-weight: 800;
 	text-decoration: none;
 	letter-spacing: 1px;
@@ -203,30 +206,14 @@ footer {
     width: 50%;
     padding: 8em 0 0 0;
 }
-/*#abovethefoldleft {
-	text-align: left;
-	padding-top: 100px;
-	padding-bottom: 100px;
-	padding-left: 100px;
-	width: 50%;
-	float: left;
-}
-
-#abovethefoldright {
-	padding-top: 100px;
-	/*padding-bottom: 100px;*/
-	/*padding-left: 25px;
-	padding-right: 100px;
-	width: 50%;
-	float: left;
-}*/
 
 .bluebutton {
 	display: inline-block;
 	background-color: #005c5e;
 	color: #ffffff;
 	font-family: 'Raleway', sans-serif;
-	font-size: 13px;
+	/*font-size: 13px;*/
+	font-size: .8125rem;
 	font-weight: 800;
 	text-decoration: none;
 	letter-spacing: 1px;
@@ -260,7 +247,8 @@ footer {
 	border: 2px solid #005c5e;
 	color: #005c5e;
 	font-family: 'Raleway', sans-serif;
-	font-size: 13px;
+	/*font-size: 13px;*/
+	font-size: .8125rem;
 	font-weight: 800;
 	text-decoration: none;
 	letter-spacing: 1px;
@@ -334,7 +322,8 @@ footer {
 	background-color: white;
 	color: black;
 	font-family: 'Raleway', sans-serif;
-	font-size: 13px;
+	/*font-size: 13px;*/
+	font-size: .8125rem;
 	font-weight: 800;
 	text-decoration: none;
 	letter-spacing: 1px;
@@ -372,14 +361,16 @@ footer {
 	font-family: 'Raleway', sans-serif;
 	font-weight: bold;
 	color: white;
-	font-size: 15px;
+	/*font-size: 15px;*/
+	font-size: 1em;
 	margin-bottom: .625rem;
 }
 
 .StayConnectedCopy {
 	font-family: 'Raleway', sans-serif;
 	color: white;
-	font-size: 13px;
+	/*font-size: 13px;*/
+	font-size: .8125rem;
 	margin-bottom: 1.25rem;
 }
 
@@ -387,7 +378,8 @@ footer {
 	font-family: 'Raleway', sans-serif;
 	color: white;
 	text-decoration: none;
-	font-size: 13px;
+	/*font-size: 13px;*/
+	font-size: .8125rem;
 }
 
 .socialmedialinks {
@@ -401,8 +393,13 @@ footer {
 	}
 }
 
-@media only screen and (max-width: 1096px) {
- >>this is where I'll fix the photo of hand/REPLENISH - DELETE<<
+@media only screen and (max-width: 1099px) {
+	#abovethefoldcolumnright {
+	    float: left;
+	    width: 50%;
+	    padding: 8em 0 0 0;
+	    position: absolute;
+	}
 }
 
 @media only screen and (max-width: 1020px) {

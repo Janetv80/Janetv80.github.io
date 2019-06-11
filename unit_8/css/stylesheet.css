@@ -418,6 +418,9 @@ footer {
 	#toggle:checked + nav {
 		float: none;
 		display: block;
+		position: absolute;
+		width: 10em;
+		right: 0em;
 	
 	}
 }

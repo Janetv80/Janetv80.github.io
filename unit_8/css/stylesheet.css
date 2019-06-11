@@ -388,11 +388,17 @@ footer {
 	margin-top: 1.25rem;
 }
 
-@media only screen and (max-width: 1096px) {
-	
+@media only screen and (max-width: 1200px) {
+	.wrapperheader {
+	    margin-left: -33px;
+	}
 }
 
-@media only screen and (max-width: 1049px) {
+@media only screen and (max-width: 1096px) {
+
+}
+
+@media only screen and (max-width: 1020px) {
 	label {
 		display: inline-block;
 		cursor: pointer;

@@ -17,8 +17,6 @@ header {
   	box-shadow: 1px 1px 1px rgba(0, 0, 0, .06);
 }
 
-
-
 header img {
 	float: left;
 	height: .1875em;
@@ -85,7 +83,8 @@ h2 {
 	line-height: 1;
 	color: black;
 	font-family: 'Aleo', serif;
-	font-size: 35px;
+	/*font-size: 35px;*/
+	font-size: 2.1875rem;
 	font-style: italic;
 	font-weight: 300;
 	margin-bottom: 2.5rem;
@@ -131,8 +130,9 @@ footer {
 .hamburger {
 	display: none;
 	cursor: pointer;
-	font-size: 25px;
-	margin-top: 17px;
+	/*font-size: 25px*/
+	font-size: 1.5625rem;
+	margin-top: 1.0625rem;
 	color: black;
 	float: right;
 }

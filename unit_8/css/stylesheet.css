@@ -395,7 +395,7 @@ footer {
 }
 
 @media only screen and (max-width: 1096px) {
-
+ >>this is where I'll fix the photo of hand/REPLENISH - DELETE<<
 }
 
 @media only screen and (max-width: 1020px) {
@@ -407,6 +407,10 @@ footer {
 		float: right;
 	}
 
+	header img {
+		padding-bottom: .9em;
+	}
+	
 	nav {
 		display: none;
 	}

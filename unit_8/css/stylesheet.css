@@ -17,9 +17,7 @@ header {
   	box-shadow: 1px 1px 1px rgba(0, 0, 0, .06);
 }
 
-label {
-	display: none;
-}
+
 
 header img {
 	float: left;
@@ -128,6 +126,15 @@ footer {
 
 .content {
   padding-top: 6.375rem;
+}
+
+.hamburger {
+	display: none;
+	cursor: pointer;
+	font-size: 25px;
+	margin-top: 17px;
+	color: black;
+	float: right;
 }
 
 #toggle {
@@ -399,13 +406,8 @@ footer {
 }
 
 @media only screen and (max-width: 1020px) {
-	label {
+	.hamburger {
 		display: inline-block;
-		cursor: pointer;
-		font-size: 25px;
-		margin-top: 17px;
-		color: black;
-		float: right;
 	}
 
 	header img {

@@ -139,6 +139,14 @@ footer {
 	float: right;
 }
 
+.hamburger:hover {
+	opacity: 0.7;
+}
+
+.hamburger:active {
+	opacity: 0.7;
+}
+
 #toggle {
 	display: none;
 }
@@ -413,18 +421,76 @@ footer {
 		padding-bottom: .85em;
 	}
 
-	nav {
+	nav { 
 		display: none;
+		margin-left: none;
+	}
+
+	nav a {
+		float: none;
+		display: block;
+		margin: 0;
+		padding-top: 2.35em;
+		padding-bottom: .53333em;
+		border-bottom: none;
+		color: white;
+	}
+
+	nav a:visited {
+		color: white;
+	}
+
+	nav a:hover {
+		color: #e3c090;
+		border-bottom: none;
+	}
+
+	nav a:active {
+		color: #e3c090;
 	}
 
 	#toggle:checked + nav {
 		float: none;
 		display: block;
 		position: absolute;
-		width: 12em;
-		right: 4em;
-		top: 7.9em;
-		background: #4a4a4a;
-	
+		width: 100%;
+		top: 7.8em;
+		background: #1c2236;
 	}
+
+	.headerbutton {
+		display: inline-block;
+		background-color: #c16261;
+		color: white;
+		font-family: 'Raleway', sans-serif;
+		/*font-size: 13px;*/
+		font-size: .8125rem;
+		font-weight: 800;
+		text-decoration: none;
+		letter-spacing: 1px;
+		text-align: center;
+		padding: .7692em 1.5385em;
+		border-radius: 2px;
+		float: none;
+		margin-top: 1.55em;
+		margin-bottom: 2.35em;
+	  	/*border: 1.5px solid black;*/
+	}
+
+	.headerbutton a {
+		color: white;
+		text-decoration: none;
+	}
+
+	.headerbutton:hover {
+		color: white;
+		background-color: #95504f;
+		border-bottom: none;
+	}
+
+	.headerbutton:active {
+		color: white;
+		background-color: #95504f;
+	}
+
 }

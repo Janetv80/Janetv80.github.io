@@ -396,7 +396,12 @@ footer {
 
 @media only screen and (max-width: 1200px) {
 	.wrapperheader {
-	    margin-left: -33px;
+	    margin-left: -38px;
+	}
+
+	footer {
+		background-color: black;
+		padding: 3.125rem 3rem; 
 	}
 }
 
@@ -410,6 +415,7 @@ footer {
 	#abovethefoldcolumnright {
 		display: none;
 	}
+
 }
 
 @media only screen and (max-width: 1020px) {

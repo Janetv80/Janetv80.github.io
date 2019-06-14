@@ -241,13 +241,13 @@ footer {
 	float: left;
 }
 
-/*.vl {
-  border-left: .5px solid #5d5d5d;
+.vl {
+  border-left: .75px solid #5d5d5d;
   height: 4rem;
   position: absolute; 
   left: 50%;
   top: 825px;
-}*/
+}
 
 .bluebuttonoutline {
 	display: inline-block;

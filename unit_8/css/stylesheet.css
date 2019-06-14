@@ -22,8 +22,8 @@ header img {
 	height: .1875em;
 	margin-right: .3em;
 	padding-top: .9em;
-	padding-left: 1.6666em;
-	width: 16.3333em;
+	padding-left: 2.75em;
+	width: 18em;
 	height: auto;
 }
 
@@ -396,7 +396,7 @@ footer {
 
 @media only screen and (max-width: 1200px) {
 	.wrapperheader {
-	    margin-left: -38px;
+	    margin-left: -55px;
 	}
 
 	footer {

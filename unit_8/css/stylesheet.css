@@ -609,13 +609,38 @@ footer {
 
 @media only screen and (max-width: 409px) {
 	.bluebutton {
+		display: block;
 		font-size: .79rem;
 		float: none;
 	}
-
-	.bluebuttonfloat {
-		float: none;
+	.bluebuttonoutline {
+		display: block;
 	}
+
+	.emailfield {
+		display: block;
+		text-align: center;
+		margin-bottom: 1em;
+	}
+
+	.signupbutton {
+		display: block;
+	}
+}
+
+@media only screen and (max-width: 391px) {
+	blockquote {
+		font-size: 1.7rem;
+		padding: 3em 1.6em;
+	}
+
+	cite {
+		font-size: 13px;
+	}
+}
+
+@media only screen and (max-width: 344px) {
+
 }
 
 

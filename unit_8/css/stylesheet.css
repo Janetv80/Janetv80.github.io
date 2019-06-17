@@ -13,17 +13,17 @@ body {
 
 header {
 	background-color: white;
-	padding: .7em 4em;
+	padding: .7em 0;
   	box-shadow: 1px 1px 1px rgba(0, 0, 0, .06);
 }
 
 header img {
 	float: left;
 	height: .1875em;
+	margin-left: 2em;
 	margin-right: .3em;
 	padding-top: .9em;
-	padding-left: 2.75em;
-	width: 18em;
+	width: 15em;
 	height: auto;
 }
 
@@ -33,6 +33,7 @@ nav {
 	font-size: .87em;
 	font-weight: 800;
 	text-align: center;
+	margin-right: 2em;
 	float: right;
 }
 
@@ -116,7 +117,7 @@ cite {
 
 footer {
 	background-color: black;
-	padding: 3.125rem 6.25rem; 
+	padding: 3.125rem; 
 }
 
 .sticky {
@@ -135,6 +136,7 @@ footer {
 	/*font-size: 25px*/
 	font-size: 1.5625rem;
 	margin-top: 1.0625rem;
+	margin-right: 1.25em;
 	color: black;
 	float: right;
 }
@@ -178,6 +180,10 @@ footer {
   	/*border: 1.5px solid black;*/
 }
 
+.homeanchor {
+
+}
+
 .headerbutton a {
 	color: white;
 	text-decoration: none;
@@ -205,8 +211,9 @@ footer {
 
 #abovethefoldcolumnleft {
     float: left;
-    width: 50%;
-    padding: 8em 0 8em 3em;
+    width: 45%;
+    padding: 8em 0 8em 0em;
+    margin-left: 2em;
 }
 
 #abovethefoldcolumnright {
@@ -394,14 +401,15 @@ footer {
 	margin-top: 1.25rem;
 }
 
-@media only screen and (max-width: 1200px) {
-	.wrapperheader {
-	    margin-left: -55px;
-	}
+@media only screen and (max-width: 1319px) {
 
+
+}
+
+@media only screen and (max-width: 1200px) {
 	footer {
 		background-color: black;
-		padding: 3.125rem 3rem; 
+		padding: 3.125rem 2rem; 
 	}
 }
 
@@ -409,7 +417,7 @@ footer {
 	#abovethefoldcolumnleft {
 	    float: none;
 	    width: 100%;
-	    padding: 8em 12em 8em 3em;
+	    padding: 8em 12em 8em 0;
 	}
 
 	#abovethefoldcolumnright {
@@ -418,7 +426,7 @@ footer {
 
 }
 
-@media only screen and (max-width: 1020px) {
+@media only screen and (max-width: 940px) {
 	.hamburger {
 		display: inline-block;
 	}
@@ -459,8 +467,10 @@ footer {
 		float: none;
 		display: block;
 		position: absolute;
-		width: 100%;
-		top: 7.8em;
+		top: 100%;
+		left: 0;
+		right: 0;
+		margin-right: 0;
 		background: #1c2236;
 	}
 

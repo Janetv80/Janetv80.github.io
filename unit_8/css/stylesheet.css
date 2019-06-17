@@ -323,7 +323,6 @@ footer {
 .emailfield {
 	display: inline-block;
 	background-color: black;
-	color: white;
 	text-align: left;
 	border: 1px solid white;
 	padding: .625rem 1.25rem;
@@ -547,21 +546,86 @@ footer {
 	}
 
 	.bluebutton {
-		display: inline-block;
-		background-color: #005c5e;
-		color: #ffffff;
-		font-family: 'Raleway', sans-serif;
-		/*font-size: 13px;*/
-		font-size: .8125rem;
-		font-weight: 800;
-		text-decoration: none;
-		letter-spacing: 1px;
-		text-align: center;
-		padding: .7692em 1.5385em;
-		margin-top: .5rem;
-		margin-bottom: 1.25rem;
-		border-radius: 2px;
-		margin-right: .9375rem;
+		font-size: .79rem;
 	}
 
+	#abovethefoldcolumnleft {
+	    padding: 8em 2em;
+	}
+
+	.SectionWhatIsReiki, .SectionWhyReiki {
+	    padding: 8em 2em;
+	}	
+
+	.bluebuttonoutline {
+		font-size: .79rem;
+	}
+
+	blockquote {
+		font-size: 1.9rem;
+		padding: 3em 1.6em;
+	}
+
+	cite {
+		font-size: 14px;
+	}
+
+	.SectionTestimonial {
+		line-height: 1.5;
+	}
+
+	.StayConnectedHeader {
+		font-size: 1.35em;
+	}
+
+	.StayConnectedCopy {
+		font-size: 12px;
+		margin-bottom: 1.25rem;
+	}
+
+	.signupbutton {
+		font-size: .79rem;
+	}
+
+	.footerlinks {
+		font-size: 12px;
+	}
 }
+
+@media only screen and (max-width: 413px) {
+	h1 {
+		line-height: 1.1;
+		font-size: 2.75em;
+		margin-bottom: 2.5rem;
+	}
+
+	h2 {
+		line-height: 1.2;
+		/*font-size: 35px;*/
+		font-size: 1.8rem;
+		margin-bottom: 2.5rem;
+	}
+}
+
+@media only screen and (max-width: 409px) {
+	.bluebutton {
+		font-size: .79rem;
+		float: none;
+	}
+
+	.bluebuttonfloat {
+		float: none;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+

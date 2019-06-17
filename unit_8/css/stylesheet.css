@@ -104,7 +104,7 @@ blockquote {
 	/*font-size: 35px;*/
 	font-size: 2.1875rem;
 	font-weight: 400;
-	max-width: 1200px;
+	max-width: 800px;
 	margin: auto;
 	padding: 3em 2em;
 }
@@ -282,7 +282,7 @@ footer {
 
 .SectionWhatIsReiki, .SectionWhyReiki {
 	text-align: center;
-	max-width: 1200px;
+	max-width: 800px;
     margin: auto;
     padding: 8em 4em;
 }	
@@ -376,7 +376,7 @@ footer {
 	font-weight: bold;
 	color: white;
 	/*font-size: 15px;*/
-	font-size: 1em;
+	font-size: 1.5em;
 	margin-bottom: .625rem;
 }
 
@@ -417,7 +417,10 @@ footer {
 	#abovethefoldcolumnleft {
 	    float: none;
 	    width: 100%;
-	    padding: 8em 12em 8em 0;
+	    max-width: 800px;
+	    padding: 8em 4em;
+	    margin: auto;
+	    text-align: center;
 	}
 
 	#abovethefoldcolumnright {
@@ -426,7 +429,7 @@ footer {
 
 }
 
-@media only screen and (max-width: 940px) {
+@media only screen and (max-width: 864px) {
 	.hamburger {
 		display: inline-block;
 	}
@@ -507,6 +510,21 @@ footer {
 	.headerbutton:active {
 		color: white;
 		background-color: #95504f;
+	}
+
+@media only screen and (max-width: 667px) {
+
+	#leftfooter {
+	    float: none;
+	    width: 100%;
+	    text-align: center;
+	    margin-bottom: 4em;
+	}
+
+	#rightfooter {
+	    float: none;
+	    width: 100%;
+	    text-align: center;
 	}
 
 }

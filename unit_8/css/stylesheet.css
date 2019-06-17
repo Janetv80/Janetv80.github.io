@@ -639,8 +639,20 @@ footer {
 	}
 }
 
-@media only screen and (max-width: 344px) {
+@media only screen and (max-width: 351px) {
+	header img {
+		width: 12em;
+	}	
 
+	.hamburger {
+		margin-top: .75rem;
+		margin-right: 1.15em;
+	}
+	
+	blockquote {
+		font-size: 1.5rem;
+		padding: 3em 1.6em;
+	}
 }
 
 
